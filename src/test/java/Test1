@@ -1,0 +1,18 @@
+Write a POST REQUEST using rest assured java library by sending below payload and verify status code and status line response
+
+Payload:-
+{
+    "username" : "abc",
+    "password" : "abc456"
+}
+
+
+Given(){ applicationType/json
+application url
+}
+.When(){
+ post(){body."username"="abc", body."password"="abc456"}
+}
+.Then(){
+ log.logall();
+}

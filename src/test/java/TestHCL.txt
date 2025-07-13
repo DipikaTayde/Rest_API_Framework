@@ -1,0 +1,29 @@
+
+
+//This is a test is a program is - remove dublicate char
+
+psvm(){
+
+String str = "This is a test is a program is";
+
+int count = str.length()-1;
+char ar[] = str.charArray();
+StringBulder sb = new StringBulder(str);
+char temp[count];
+//String s1='T';
+char Arr1[count];
+for(int i=0; i<count; i++){
+for(int j=1; j<count; j++){
+  if(ar[i] == temp[j]){
+  // do nothing
+  } else{
+ // s1=sb.apend(s1,temp[j]);
+ //Arr1[i+1]=temp[j];
+ s1=s1.add(temp[j]);
+  }
+  }
+  }
+}
+
+System.out.println(s1);
+}
